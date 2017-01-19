@@ -34,7 +34,8 @@ node.js、es6
 
 ## 语句和表达式
 * 块语句使用花括号
-* 花括号对齐方式
+* 花括号对齐方式  
+
     > 11tbs风格
 * 禁用with语句
 * for-in循环要使用hasOwnProperty()过滤实例属性  
