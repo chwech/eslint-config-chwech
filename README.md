@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/chwech/eslint-config-chwech.svg?branch=master)](https://travis-ci.org/chwech/eslint-config-chwech)
 # Javascript编程风格eslint配置
 ## 环境
 node.js、es6
