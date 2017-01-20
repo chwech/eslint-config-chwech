@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/chwech/eslint-config-chwech.svg?branch=master)](https://travis-ci.org/chwech/eslint-config-chwech)
+[![codecov](https://codecov.io/gh/chwech/eslint-config-chwech/branch/master/graph/badge.svg)](https://codecov.io/gh/chwech/eslint-config-chwech)
 # Javascript编程风格eslint配置
 ## 环境
 node.js、es6
