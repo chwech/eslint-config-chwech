@@ -58,4 +58,7 @@ node.js、es6
 6. eval()
     * 禁用eval
 7. 包装类型
-    * 禁止使用原始包装类型
+    * 禁止使用原始包装类型  
+    
+## License
+[MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)
