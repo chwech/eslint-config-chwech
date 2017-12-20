@@ -14,8 +14,8 @@ module.exports = {
 		// 缩进为tab
 		'indent': ['error', 'tab'],
 
-		// 需要分号结尾
-		'semi': ['error','always'],
+		// 不需要分号结尾
+		'semi': ['error','never'],
 
 		// 单行最大长度为80个字符
 		'max-len': ['error', 80, 4],
