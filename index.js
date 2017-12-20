@@ -11,8 +11,8 @@ module.exports = {
 	rules: {
 		'no-console': 'off',
 
-		// 缩进为tab
-		'indent': ['error', 'tab'],
+		// 缩进为2个空格
+		'indent': ['error', 2],
 
 		// 不需要分号结尾
 		'semi': ['error','never'],
