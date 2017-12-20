@@ -80,8 +80,8 @@ module.exports = {
 		// var声明在作用域顶部
 		'vars-on-top': ['error'],
 
-		// 单一变量声明
-		'one-var': ['error', 'always'],
+		// var单一变量声明, const,let可以多个变量声明
+		'one-var': ['error', { var: 'always', let: 'never', const: 'never' }],
 
 		// 函数声明不应该在语句块之内
 		'no-inner-declarations': ['error', 'functions'],
