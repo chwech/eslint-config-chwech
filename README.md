@@ -1,9 +1,12 @@
 [![Build Status](https://travis-ci.org/chwech/eslint-config-chwech.svg?branch=master)](https://travis-ci.org/chwech/eslint-config-chwech)
 [![codecov](https://codecov.io/gh/chwech/eslint-config-chwech/branch/master/graph/badge.svg)](https://codecov.io/gh/chwech/eslint-config-chwech)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)
+
 # Javascript编程风格eslint配置
+
 ## 环境
 node.js、es6
+
 ## 基本格式化
 1. 缩进层级
 
@@ -29,7 +32,9 @@ node.js、es6
     2. 数字字面量
     * 浮点数小数点前后必须有数字
     * 禁止使用八进制数字字面量  
-     
+7. 数组、对象、函数的拖尾逗号
+    当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，允许（但不要求）使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
+
 ## 注释
 * 多行或单行注释之前有空行
 * 强制使用有效的 JSDoc 注释

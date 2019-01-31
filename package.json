@@ -4,11 +4,15 @@
   "description": "eslint-config for chwech",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [
+    "eslint",
     "eslint-config"
   ],
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
   "author": "chwech",
   "license": "MIT"
 }

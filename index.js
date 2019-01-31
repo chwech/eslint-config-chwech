@@ -99,7 +99,16 @@ module.exports = {
 		'no-eval': ['error'],
 
 		// 禁止使用原始包装类型
-		'no-new-wrappers': ['error']
+		'no-new-wrappers': ['error'],
+
+		// 数组、对象、函数拖尾逗号：当最后一个元素或属性与闭括号 ] 或 } 在 不同的行时，允许（但不要求）使用拖尾逗号；当在 同一行时，禁止使用拖尾逗号。
+		'comma-dangle': ['error', {
+			'array': 'only-multiline',
+			'objects': 'only-multiline',
+			'imports': 'never',
+			'exports': 'never',
+			'functions': 'only-multiline'
+		}]
 	}
 
 };
