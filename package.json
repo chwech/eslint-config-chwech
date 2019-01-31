@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-chwech",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "eslint-config for chwech",
   "main": "index.js",
   "scripts": {
