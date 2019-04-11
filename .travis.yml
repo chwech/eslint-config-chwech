@@ -3,7 +3,7 @@ node_js:
 - '6'
 deploy:
   provider: npm
-  emali: 804699297@qq.com
+  email: 804699297@qq.com
   on:
     branch: master
     tags: true
