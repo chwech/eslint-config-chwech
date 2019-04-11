@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: npm
+  emali: 804699297@qq.com
+  on:
+    branch: master
+    tags: true
+  api_key:
+    secure: wrtO5uGuBlnl3QgPBqz2O5okuvErM9M9i5yU+W6k3lb3gky1wOXtQy17p7ftDJsb8OcNoCl0kCEA1xQeV/EmQSnB/GUcMrduR1pIzEZJlKXuhetRqB9ymSnZpSHILSW1C9tTOp05CFeOjK1CyRcQCVbqodKXwyzH4p9/xIMc0uBWs4E+06GJdhxMzqtyZeHz4PvlQv1f3YP4l9gmK7WlSNiSZLKTbGTasGmr2F9SEanC36a8ST1itwePMf+I7DWsFE0ItqOOcQT+7JyOjCc6r4KYK9VfZiJcJk8Ow6cl8YP4CMVvK6NMOwTYaXvyCamSoPqAQzEt3QeRyvydtxQ0SzUIqlTZ3HKeMuSSQU0aE6cdbYjAha87kpa1IC4Iw6mioCAdskD3ew5szZQgoRR8BCj0AnczPZaUxsIQO3zB3N97+bL8pREcKhYmo0t49vtrWzbmr7Dp4w+ZZ1RH5uWV5GRSxi3XwsVhfpA+3xx6xo52Srx+uspqz4ewzxZDlCtHXB6sNkrvMEPjuOGSuoDaGYt3+E5nhecmHbuQ0DKOYc7cAVS3o8WISTStplm30kubanRGnPrVQbsITWgDGivYxu4M9Sn+Id0V6l/bZAq5c0UQUg7sVDFgve6xxeKitcA1S9tE/M2Fn65AEjoCu5drEhutXO0HL+wIxpQ9XzRgUW4=
