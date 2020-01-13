@@ -108,7 +108,12 @@ module.exports = {
 			'imports': 'never',
 			'exports': 'never',
 			'functions': 'only-multiline'
-		}]
-	}
+		}],
 
+		// 禁止import的变量被赋值
+		'no-import-assign': ['error'],
+
+		// 禁止魔术数字
+		'no-magic-numbers': ['error']
+	}
 };
