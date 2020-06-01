@@ -18,7 +18,7 @@ module.exports = {
 		'semi': ['error','never'],
 
 		// 单行最大长度为80个字符
-		'max-len': ['error', 80, 4],
+		'max-len': ['error', 120, 4],
 
 		// 统一使用简单换行分隔符\n换行
 		'linebreak-style': ['error', 'unix'],
@@ -26,7 +26,8 @@ module.exports = {
 		// 多行或单行注释之前有空行
 		'lines-around-comment': ['error', {
 			beforeBlockComment: true,
-			beforeLineComment: true
+			beforeLineComment: true,
+			allowBlockStart: true
 		}],
 
 		// 强制使用有效的 JSDoc 注释
@@ -114,6 +115,9 @@ module.exports = {
 		'no-import-assign': ['error'],
 
 		// 禁止魔术数字
-		'no-magic-numbers': ['error']
+		'no-magic-numbers': ['error'],
+
+		// 禁止使用var声明变量，只能使用let 或者 const
+		'no-var': 'error'
 	}
 };
