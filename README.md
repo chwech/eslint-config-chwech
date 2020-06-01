@@ -31,7 +31,7 @@ npm install @chwech/eslint-config --save-dev
     语句结束不使用分号
 3. 行最大长度
 
-    一行最大长度为80个字符
+    一行最大长度为120个字符
 4. 空行
     * 多行或单行注释之前有空行
     * 变量声明后有一行空行
@@ -66,6 +66,7 @@ npm install @chwech/eslint-config --save-dev
 
 ### 变量、函数和运算符
 1. 变量声明
+    * 禁止使用var声明变量
     * var声明在作用域顶部
     * var单一变量声明, const,let可以多个变量声明
 2. 函数声明
